@@ -1,60 +1,11 @@
-//import { Component } from '@angular/core';
 
-
-
-/*
-@Component({
-  selector: 'app-cadviewer',
-  templateUrl: 'cadviewer.component.html',
-  styleUrls: [ './cadviewer.component.scss' ]
-})
-
-export class CADViewerComponent {
-  constructor() {
-  }
-
-
-  customHighlightSingleID(){
-
-    var singleid = ((document.getElementById("singleID") as HTMLInputElement).value);
-    window.alert("singleid zoom and highlight:"+singleid);
-    this.highlight_space_object(singleid, 30);
-  
-  }
-  
-  customLoadDrawing(){
-
-    var singleid = ((document.getElementById("singleID") as HTMLInputElement).value);
-    window.alert("singleid zoom and highlight:"+singleid);
-    this.highlight_space_object(singleid, 30);
-  
-  }
-
-
-  highlight_space_object(myspace :string, scale : number){
-
-    cadviewer.cvjs_zoomHere_ObjectIdDiv( myspace, scale, "floorPlan");
-    cadviewer.cvjs_highlightSpace(myspace, highlight_green);
-  
-  }
-  
-
-
-}
-
-*/
-
-
-//import { OnInit } from '@angular/core';
 import { Component, OnInit } from '@angular/core';
 import { fromEvent, Observable, Subscription } from "rxjs";
 
 import * as cadviewer from "cadviewer";
 
 
-
 /*import ResizeObserver from 'resize-observer-polyfill'; */
-
 
 var isObjectAlredySelected = false;   // global variable to control selections
 var textLayer1 = "";
