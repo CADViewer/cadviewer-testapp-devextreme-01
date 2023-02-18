@@ -1,6 +1,6 @@
 {
   "name": "cadviewer-testapp-devextreme-01",
-  "version": "8.30.17",
+  "version": "8.31.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -21,7 +21,7 @@
     "@angular/platform-browser": "^14.0.0",
     "@angular/platform-browser-dynamic": "^14.0.0",
     "@angular/router": "^14.0.0",
-    "cadviewer": "^8.30.17",
+    "cadviewer": "^8.31.1",
     "devextreme": "^22.2.4",
     "devextreme-angular": "^22.2.4",
     "devextreme-schematics": "^1.5.1",
