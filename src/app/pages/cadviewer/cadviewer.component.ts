@@ -1180,6 +1180,8 @@ this.mouseupSubscription$ = this.mouseupObservable$.subscribe(evt => {
         // See php / xampp documentation on how to prepare your server
         cadviewer.cvjs_emailSettings_PDF_publish("From CAD Server", "my_from_address@mydomain.com", "my_cc_address@mydomain.com", "my_reply_to@mydomain.com");
                
+
+     //   cadviewer.cvjs_setCADViewerInterfaceVersion(6);
         // CHANGE LANGUAGE - DEFAULT IS ENGLISH
     //      cadviewer.cvjs_loadCADViewerLanguage("English", ServerUrl+"/assets/cadviewer/app/cv/cv-pro/language_table/cadviewerProLanguage.xml");
           // set to Angular mode
@@ -1202,7 +1204,7 @@ this.mouseupSubscription$ = this.mouseupObservable$.subscribe(evt => {
     
         // 3: Users can change the number of top menu icon pages and the content of pages, based on a configuration file in folder /cadviewer/app/cv/cv-pro/menu_config/
         
-        cadviewer.cvjs_setTopMenuXML("floorPlan", "cadviewer_full_commands_01.xml", "");  
+         cadviewer.cvjs_setTopMenuXML("floorPlan", "cadviewer_full_commands_01.xml", "");  
 		    //cadviewer.cvjs_setTopMenuXML("floorPlan", "cadviewer_viewonly_nofileload_01.xml", "/cadviewer/app/cv/cv-pro/menu_config/"); //, "/app/cv/cv-pro/menu_config/");
 
                   
